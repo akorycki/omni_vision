@@ -1,0 +1,11 @@
+<launch>
+    <!-- YAML configuration file -->
+    <param name="yaml_file" value="$(find omni_vision)/config/kodak_orbit360.yaml"/>
+
+    <param name="new_width" type="int" value="1440"/>
+    <param name="new_height" type="int" value="1440"/>
+    <param name="rectification_type" value="perspective"/>
+
+    <!-- Node -->
+    <node name="omni_rect" pkg="omni_vision" type="omni_rect_node" output="screen"/>
+</launch>
