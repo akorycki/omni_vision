@@ -12,7 +12,6 @@ git clone https://github.com/akorycki/omni_vision.git
 cd ..
 catkin_make
 source devel/setup.bash
-  bash
 ```
 
 ## Nodes
@@ -45,5 +44,4 @@ For more information on the rectification types, refer to https://docs.opencv.or
 
 ```bash
 roslaunch omni_vision kodak_orbit360.launch
-  bash
 ```
